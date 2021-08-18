@@ -1,0 +1,8 @@
+.box1{
+    color: gold;
+    backface-visibility: hidden;
+}
+
+.center{
+    text-align: center;
+}

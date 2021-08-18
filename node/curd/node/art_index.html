@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章</title>
+    <style>
+        main {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        main .flex {
+            display: flex;
+            justify-content: space-around;
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        p {
+            width: 760px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h2 class="center">{{art.title}}</h2>
+    <div class="flex">
+        <span>作者：{{art.author}}</span>&nbsp;&nbsp;
+        <span>发布时间：{{art.time}}</span>
+        <a href="./">返回首页</a>
+    </div>
+    <p>{{art.content}}</p>
+</main>
+</body>
+</html>

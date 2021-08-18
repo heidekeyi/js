@@ -1,0 +1,14 @@
+.img{
+    list-style: none;
+    height: 250px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url('../img/2.png');
+}
+.img4{
+    background-image: url('../img/4.jpg');
+}
